@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Oswald-Bold';
-    src: url('../fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+    src: url('../../common/fonts/Oswald/Oswald-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'PTSerif-Regular';
-    src: url('../fonts/PT%20Serif/PT_Serif-Web-Regular.ttf') format('truetype');
+    src: url('../../common/fonts/PT%20Serif/PT_Serif-Web-Regular.ttf') format('truetype');
 }
 
 body {
@@ -20,13 +20,8 @@ body {
 .logo {
     width: 70px;
     height: 70px;
-    background-color: #AB9166;
-    border: 1px solid #AB9166;
-    border-radius: 14px;
     display: inline-block;
-    font-family: Oswald-Bold;
-    font-size: 50px;
-    color: #000000;
+    background-image: url("../img/logo-1.png");
 }
 
 .heading {

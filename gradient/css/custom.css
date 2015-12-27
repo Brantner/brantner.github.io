@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../../common/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../../common/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../../common/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-image: url("../img/logo-1.png");
+}
+
+.heading {
+    font-family: Lato-Light;
+    font-size: 64px;
+    color: #484A4C;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 123px;
+}
+
+.text {
+    margin-top: 37px;
+    font-family: Lato-Light;
+    font-size: 22px;
+    color: rgba(72, 74, 76, 0.64);
+    line-height: 32px;
+    text-align: center;
+}
+
+.subscribe-form {
+    margin-top: 48px;
+}
+
+.form-control {
+    height: 64px;
+    background: #f4f4f4;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    color: #8F9498;
+}
+
+.form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(244, 244, 244, .6);
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #8F9498;
+    font-size: 18px;
+    font-family: Lato-Regular;
+}
+
+.btn {
+    height: 64px;
+    background-image: linear-gradient(0deg, #332A84 0%, #C86DD7 100%);
+    border-radius:5px;
+    color:#FFFFFF;
+    padding: 6px 50px;
+    font-family: Lato-Bold;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #AB9166;
+}
+
+.icons {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 28px;
+    margin-bottom: 70px;
+}
