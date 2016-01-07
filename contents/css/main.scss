@@ -1,0 +1,327 @@
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../../common/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../../common/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../../common/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../../common/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+html, body {
+  height: 100%;
+}
+
+.container-fluid.content-1 {
+  height: 100%;
+}
+
+.content-1 {
+
+  height: 100%;
+  background: #403F6F url("../img/bg.png") no-repeat center fixed;
+  background-size: cover;
+
+  .navigation {
+    margin-top: 56px;
+  }
+
+  .logo {
+    width: 103px;
+    height: 40px;
+    display: inline-block;
+    background-image: url("../img/logo.png");
+  }
+
+  .menu {
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    color: #FFFFFF;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin: 10px 25px;
+    }
+  }
+
+  .btn {
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    height: 48px;
+    width: 130px;
+  }
+
+  .btn-default {
+    background: #ffffff;
+    color: #757575;
+    border-radius: 50px;
+  }
+
+  .header-small {
+    opacity: 0.7;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 200px;
+  }
+
+  .header-big {
+    font-family: Poppins-SemiBold;
+    font-size: 112px;
+    color: #FFFFFF;
+    line-height: 183px;
+    text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.20);
+  }
+
+  .main-text {
+    font-family: Poppins-Light;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 40px;
+  }
+
+  .icon-scroll {
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    background: url("../img/icons/arrow.svg") no-repeat center;
+    margin-top: 110px;
+  }
+}
+
+.content-2 {
+  .header-small {
+    margin-top: 130px;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #B9B9B9;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  .header-big {
+    font-family: Poppins-SemiBold;
+    font-size: 72px;
+    color: #000000;
+    line-height: 100px;
+  }
+
+  .main-text {
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #757575;
+    line-height: 32px;
+    margin-top: 25px;
+  }
+
+  .blocks {
+    margin-top: 110px;
+    margin-bottom: 148px;
+  }
+
+  .icon-docs {
+    width: 61px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/icons/docs.svg") no-repeat center;
+  }
+
+  .icon-pen {
+    width: 65px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/icons/pen.svg") no-repeat center;
+  }
+
+  .icon-computer {
+    width: 63px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/icons/computer.svg") no-repeat center;
+  }
+
+  .sub-header {
+    margin-top: 52px;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    color: #000000;
+    line-height: 32px;
+  }
+
+  .text-small {
+    margin-top: 18px;
+    font-family: Poppins-Light;
+    font-size: 18px;
+    color: #757575;
+    line-height: 29px;
+  }
+
+}
+
+.partners-1 {
+  .header {
+    margin-top: 84px;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #B9B9B9;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  .brands {
+    margin-top: 50px;
+    list-style-type: none;
+    margin-bottom: 100px;
+
+    li {
+      display: inline-block;
+      margin: 0 52px;
+    }
+
+    .nike {
+      width: 95px;
+      height: 34px;
+      background: url("../img/nike.svg") no-repeat center;
+    }
+
+    .wired {
+      width: 163px;
+      height: 34px;
+      background: url("../img/wired.svg") no-repeat center;
+    }
+
+    .tumbler {
+      width: 160px;
+      height: 34px;
+      background: url("../img/tumblr.svg") no-repeat center;
+    }
+
+    .ge {
+      width: 54px;
+      height: 55px;
+      background: url("../img/ge.svg") no-repeat center;
+    }
+
+    .dribble {
+      width: 143px;
+      height: 35px;
+      background: url("../img/dribbble.svg") no-repeat center;
+    }
+
+    .vans {
+      width: 105px;
+      height: 46px;
+      background: url("../img/vans.svg") no-repeat center;
+    }
+  }
+}
+
+.forms-1 {
+  background: #5A5048;
+
+  .header {
+    margin-top: 123px;
+    font-family: Poppins-SemiBold;
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 100px;
+  }
+
+  .text {
+    margin-top: 25px;
+    opacity: 0.6;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 32px;
+  }
+
+  .form-control {
+    height: 64px;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .form {
+    margin-top: 46px;
+
+    .btn {
+      height: 64px;
+      border: 0;
+      width: 165px;
+      border-radius: 4px;
+    }
+
+    .btn-default {
+      font-family: Poppins-SemiBold;
+      font-size: 18px;
+      color: #FFFFFF;
+      line-height: 26px;
+      background: #EB9587;
+    }
+  }
+
+  .text-small {
+    margin-top: 70px;
+    margin-bottom: 150px;
+    opacity: 0.39;
+    font-family: Poppins-Light;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+  }
+}
+
+.footer-1 {
+  background: #5A5048;
+  padding-bottom: 150px;
+
+  .text {
+    opacity: 0.6;
+    font-family: Poppins-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+  }
+
+  .links {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      margin: 0 20px;
+      opacity:0.6;
+      font-family:Poppins-SemiBold;
+      font-size:16px;
+      color:#FFFFFF;
+      line-height:26px;
+    }
+  }
+}
