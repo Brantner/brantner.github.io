@@ -104,34 +104,33 @@ html, body {
 }
 
 .content-2 {
-  .header-small {
-    margin-top: 130px;
+  margin-top: 130px;
+
+  h3 {
     font-family: Poppins-Medium;
     font-size: 16px;
     color: #B9B9B9;
     letter-spacing: 2px;
-    line-height: 26px;
     text-transform: uppercase;
   }
 
-  .header-big {
+  h1 {
     font-family: Poppins-SemiBold;
     font-size: 72px;
     color: #000000;
-    line-height: 100px;
+    line-height: 1.5;
   }
 
-  .main-text {
+  p {
     font-family: Poppins-Light;
     font-size: 20px;
     color: #757575;
-    line-height: 32px;
-    margin-top: 25px;
+    line-height: 1.6;
   }
 
-  .blocks {
-    margin-top: 110px;
-    margin-bottom: 148px;
+  .block {
+    margin-top: 10%;
+    margin-bottom: 15%;
   }
 
   .icon-docs {

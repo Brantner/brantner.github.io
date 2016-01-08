@@ -71,55 +71,54 @@ html, body {
     background: url("../img/icons/arrow.svg") no-repeat center;
     margin-top: 110px; }
 
-.content-2 .header-small {
-  margin-top: 130px;
-  font-family: Poppins-Medium;
-  font-size: 16px;
-  color: #B9B9B9;
-  letter-spacing: 2px;
-  line-height: 26px;
-  text-transform: uppercase; }
-.content-2 .header-big {
-  font-family: Poppins-SemiBold;
-  font-size: 72px;
-  color: #000000;
-  line-height: 100px; }
-.content-2 .main-text {
-  font-family: Poppins-Light;
-  font-size: 20px;
-  color: #757575;
-  line-height: 32px;
-  margin-top: 25px; }
-.content-2 .blocks {
-  margin-top: 110px;
-  margin-bottom: 148px; }
-.content-2 .icon-docs {
-  width: 61px;
-  height: 64px;
-  display: inline-block;
-  background: url("../img/icons/docs.svg") no-repeat center; }
-.content-2 .icon-pen {
-  width: 65px;
-  height: 64px;
-  display: inline-block;
-  background: url("../img/icons/pen.svg") no-repeat center; }
-.content-2 .icon-computer {
-  width: 63px;
-  height: 64px;
-  display: inline-block;
-  background: url("../img/icons/computer.svg") no-repeat center; }
-.content-2 .sub-header {
-  margin-top: 52px;
-  font-family: Poppins-Medium;
-  font-size: 20px;
-  color: #000000;
-  line-height: 32px; }
-.content-2 .text-small {
-  margin-top: 18px;
-  font-family: Poppins-Light;
-  font-size: 18px;
-  color: #757575;
-  line-height: 29px; }
+.content-2 {
+  margin-top: 130px; }
+  .content-2 h3 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #B9B9B9;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .content-2 h1 {
+    font-family: Poppins-SemiBold;
+    font-size: 72px;
+    color: #000000;
+    line-height: 1.5; }
+  .content-2 p {
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #757575;
+    line-height: 1.6; }
+  .content-2 .block {
+    margin-top: 10%;
+    margin-bottom: 15%; }
+  .content-2 .icon-docs {
+    width: 61px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/icons/docs.svg") no-repeat center; }
+  .content-2 .icon-pen {
+    width: 65px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/icons/pen.svg") no-repeat center; }
+  .content-2 .icon-computer {
+    width: 63px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/icons/computer.svg") no-repeat center; }
+  .content-2 .sub-header {
+    margin-top: 52px;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    color: #000000;
+    line-height: 32px; }
+  .content-2 .text-small {
+    margin-top: 18px;
+    font-family: Poppins-Light;
+    font-size: 18px;
+    color: #757575;
+    line-height: 29px; }
 
 .content-3 .box:before {
   content: "";
