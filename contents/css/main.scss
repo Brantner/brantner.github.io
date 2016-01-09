@@ -18,22 +18,50 @@
   src: url('../../common/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
 }
 
-html, body {
-  height: 100%;
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+
+@media (min-width: 768px) {
+  .text-sm-left { text-align: left; }
+  .text-sm-right { text-align: right; }
+  .text-sm-center { text-align: center; }
+  .text-sm-justify { text-align: justify; }
 }
 
-.container-fluid.content-1 {
-  height: 100%;
+@media (min-width: 992px) {
+  .text-md-left { text-align: left; }
+  .text-md-right { text-align: right; }
+  .text-md-center { text-align: center; }
+  .text-md-justify { text-align: justify; }
+}
+
+@media (min-width: 1200px) {
+  .text-lg-left { text-align: left; }
+  .text-lg-right { text-align: right; }
+  .text-lg-center { text-align: center; }
+  .text-lg-justify { text-align: justify; }
+}
+
+$z-index-max: 999;
+
+.vertical-center {
+  display: table-cell;
+  height: 100vh;
+  vertical-align: middle;
 }
 
 .content-1 {
-
-  height: 100%;
-  background: #403F6F url("../img/bg.png") no-repeat center fixed;
+  height: 100vh;
+  background: #403F6F url("../img/bg.png") no-repeat center;
   background-size: cover;
 
   .navigation {
-    margin-top: 56px;
+    margin-top: 3%;
+    position: fixed;
+    width: 100%;
+    z-index: $z-index-max;
   }
 
   .logo {
@@ -44,20 +72,24 @@ html, body {
   }
 
   .menu {
-    font-family: Poppins-Medium;
-    font-size: 18px;
-    color: #FFFFFF;
     list-style-type: none;
 
     li {
       display: inline-block;
       margin: 10px 25px;
+
+      a {
+        font-family: Poppins-Medium;
+        font-size: 18px;
+        color: #FFFFFF;
+      }
     }
   }
 
   .btn {
     font-family: Poppins-Medium;
     font-size: 18px;
+    line-height: 2;
     height: 48px;
     width: 130px;
   }
@@ -68,7 +100,7 @@ html, body {
     border-radius: 50px;
   }
 
-  .header-small {
+  h3 {
     opacity: 0.7;
     font-family: Poppins-SemiBold;
     font-size: 16px;
@@ -76,22 +108,27 @@ html, body {
     letter-spacing: 2px;
     line-height: 26px;
     text-transform: uppercase;
-    margin-top: 200px;
   }
 
-  .header-big {
+  h1 {
     font-family: Poppins-SemiBold;
-    font-size: 112px;
+    font-size: 11vh;
     color: #FFFFFF;
-    line-height: 183px;
+    line-height: 1.5;
     text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.20);
   }
 
   .main-text {
     font-family: Poppins-Light;
-    font-size: 24px;
+    font-size: 2.4vh;
     color: #FFFFFF;
-    line-height: 40px;
+    line-height: 1.7;
+  }
+
+  .scroll {
+    position: absolute;
+    bottom: 4%;
+    width: 100%;
   }
 
   .icon-scroll {
@@ -99,7 +136,7 @@ html, body {
     height: 54px;
     display: inline-block;
     background: url("../img/icons/arrow.svg") no-repeat center;
-    margin-top: 110px;
+    cursor: pointer;
   }
 }
 

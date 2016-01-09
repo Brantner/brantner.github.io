@@ -10,66 +10,121 @@
 @font-face {
   font-family: 'Poppins-Medium';
   src: url("../../common/fonts/Poppins/Poppins-Medium.ttf") format("truetype"); }
-html, body {
-  height: 100%; }
+.text-xs-left {
+  text-align: left; }
 
-.container-fluid.content-1 {
-  height: 100%; }
+.text-xs-right {
+  text-align: right; }
+
+.text-xs-center {
+  text-align: center; }
+
+.text-xs-justify {
+  text-align: justify; }
+
+@media (min-width: 768px) {
+  .text-sm-left {
+    text-align: left; }
+
+  .text-sm-right {
+    text-align: right; }
+
+  .text-sm-center {
+    text-align: center; }
+
+  .text-sm-justify {
+    text-align: justify; } }
+@media (min-width: 992px) {
+  .text-md-left {
+    text-align: left; }
+
+  .text-md-right {
+    text-align: right; }
+
+  .text-md-center {
+    text-align: center; }
+
+  .text-md-justify {
+    text-align: justify; } }
+@media (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left; }
+
+  .text-lg-right {
+    text-align: right; }
+
+  .text-lg-center {
+    text-align: center; }
+
+  .text-lg-justify {
+    text-align: justify; } }
+.vertical-center {
+  display: table-cell;
+  height: 100vh;
+  vertical-align: middle; }
 
 .content-1 {
-  height: 100%;
-  background: #403F6F url("../img/bg.png") no-repeat center fixed;
+  height: 100vh;
+  background: #403F6F url("../img/bg.png") no-repeat center;
   background-size: cover; }
   .content-1 .navigation {
-    margin-top: 56px; }
+    margin-top: 3%;
+    position: fixed;
+    width: 100%;
+    z-index: 999; }
   .content-1 .logo {
     width: 103px;
     height: 40px;
     display: inline-block;
     background-image: url("../img/logo.png"); }
   .content-1 .menu {
-    font-family: Poppins-Medium;
-    font-size: 18px;
-    color: #FFFFFF;
     list-style-type: none; }
     .content-1 .menu li {
       display: inline-block;
       margin: 10px 25px; }
+      .content-1 .menu li a {
+        font-family: Poppins-Medium;
+        font-size: 18px;
+        color: #FFFFFF; }
   .content-1 .btn {
     font-family: Poppins-Medium;
     font-size: 18px;
+    line-height: 2;
     height: 48px;
     width: 130px; }
   .content-1 .btn-default {
     background: #ffffff;
     color: #757575;
     border-radius: 50px; }
-  .content-1 .header-small {
+  .content-1 h3 {
     opacity: 0.7;
     font-family: Poppins-SemiBold;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 2px;
     line-height: 26px;
-    text-transform: uppercase;
-    margin-top: 200px; }
-  .content-1 .header-big {
+    text-transform: uppercase; }
+  .content-1 h1 {
     font-family: Poppins-SemiBold;
-    font-size: 112px;
+    font-size: 11vh;
     color: #FFFFFF;
-    line-height: 183px;
+    line-height: 1.5;
     text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.2); }
   .content-1 .main-text {
     font-family: Poppins-Light;
-    font-size: 24px;
+    font-size: 2.4vh;
     color: #FFFFFF;
-    line-height: 40px; }
+    line-height: 1.7; }
+  .content-1 .scroll {
+    position: absolute;
+    bottom: 4%;
+    width: 100%; }
   .content-1 .icon-scroll {
     width: 54px;
     height: 54px;
     display: inline-block;
     background: url("../img/icons/arrow.svg") no-repeat center;
-    margin-top: 110px; }
+    cursor: pointer; }
 
 .content-2 {
   margin-top: 130px; }
