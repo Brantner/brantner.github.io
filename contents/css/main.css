@@ -22,6 +22,15 @@
 .text-xs-justify {
   text-align: justify; }
 
+.height-xs-100-h {
+  height: 100vh; }
+
+.height-xs-50-w {
+  height: 50vw; }
+
+.height-xs-100-w {
+  height: 100vw; }
+
 @media (min-width: 768px) {
   .text-sm-left {
     text-align: left; }
@@ -33,7 +42,16 @@
     text-align: center; }
 
   .text-sm-justify {
-    text-align: justify; } }
+    text-align: justify; }
+
+  .height-sm-100-h {
+    height: 100vh; }
+
+  .height-sm-50-w {
+    height: 50vw; }
+
+  .height-sm-100-w {
+    height: 100vw; } }
 @media (min-width: 992px) {
   .text-md-left {
     text-align: left; }
@@ -45,7 +63,16 @@
     text-align: center; }
 
   .text-md-justify {
-    text-align: justify; } }
+    text-align: justify; }
+
+  .height-md-100-h {
+    height: 100vh; }
+
+  .height-md-50-w {
+    height: 50vw; }
+
+  .height-md-100-w {
+    height: 100vw; } }
 @media (min-width: 1200px) {
   .text-lg-left {
     text-align: left; }
@@ -57,10 +84,18 @@
     text-align: center; }
 
   .text-lg-justify {
-    text-align: justify; } }
+    text-align: justify; }
+
+  .height-lg-100-h {
+    height: 100vh; }
+
+  .height-lg-50-w {
+    height: 50vw; }
+
+  .height-lg-100-w {
+    height: 100vw; } }
 .vertical-center {
   display: table-cell;
-  height: 100vh;
   vertical-align: middle; }
 
 .content-1 {
@@ -175,31 +210,13 @@
     color: #757575;
     line-height: 29px; }
 
-.content-3 .box:before {
-  content: "";
-  display: block;
-  padding-top: 100%; }
 .content-3 .box-1 {
   background: #C9B27B url("../img/bg-2.png") no-repeat center;
   background-size: cover; }
 .content-3 .box-2 {
   background: #A8B0AE url("../img/bg-3.png") no-repeat center;
   background-size: cover; }
-.content-3 .box-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
-.content-3 .box-horizontal-center:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%; }
-.content-3 .phone {
-  top: auto; }
 .content-3 .pre-header {
-  margin-top: 166px;
   font-family: Poppins-Medium;
   font-size: 16px;
   color: #B9B9B9;
