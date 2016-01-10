@@ -18,46 +18,139 @@
   src: url('../../common/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
 }
 
-.text-xs-left { text-align: left; }
-.text-xs-right { text-align: right; }
-.text-xs-center { text-align: center; }
-.text-xs-justify { text-align: justify; }
+.text-xs-left {
+  text-align: left;
+}
 
-.height-xs-100-h { height: 100vh; }
-.height-xs-50-w { height: 50vw; }
-.height-xs-100-w { height: 100vw; }
+.text-xs-right {
+  text-align: right;
+}
+
+.text-xs-center {
+  text-align: center;
+}
+
+.text-xs-justify {
+  text-align: justify;
+}
+
+.height-xs-100-h {
+  height: 100vh;
+}
+
+.height-xs-50-w {
+  height: 50vw;
+}
+
+.height-xs-100-w {
+  height: 100vw;
+}
+
+.width-xs-100 {
+  width: 100%;
+}
+
+.width-xs-auto {
+  width: auto;
+}
 
 @media (min-width: 768px) {
-  .text-sm-left { text-align: left; }
-  .text-sm-right { text-align: right; }
-  .text-sm-center { text-align: center; }
-  .text-sm-justify { text-align: justify; }
+  .text-sm-left {
+    text-align: left;
+  }
+  .text-sm-right {
+    text-align: right;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+  .text-sm-justify {
+    text-align: justify;
+  }
 
-  .height-sm-100-h { height: 100vh; }
-  .height-sm-50-w { height: 50vw; }
-  .height-sm-100-w { height: 100vw; }
+  .height-sm-100-h {
+    height: 100vh;
+  }
+  .height-sm-50-w {
+    height: 50vw;
+  }
+  .height-sm-100-w {
+    height: 100vw;
+  }
+
+  .width-sm-100 {
+    width: 100%;
+  }
+
+  .width-sm-auto {
+    width: auto;
+  }
 }
 
 @media (min-width: 992px) {
-  .text-md-left { text-align: left; }
-  .text-md-right { text-align: right; }
-  .text-md-center { text-align: center; }
-  .text-md-justify { text-align: justify; }
+  .text-md-left {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+  .text-md-center {
+    text-align: center;
+  }
+  .text-md-justify {
+    text-align: justify;
+  }
 
-  .height-md-100-h { height: 100vh; }
-  .height-md-50-w { height: 50vw; }
-  .height-md-100-w { height: 100vw; }
+  .height-md-100-h {
+    height: 100vh;
+  }
+  .height-md-50-w {
+    height: 50vw;
+  }
+  .height-md-100-w {
+    height: 100vw;
+  }
+
+  .width-md-100 {
+    width: 100%;
+  }
+
+  .width-md-auto {
+    width: auto;
+  }
 }
 
 @media (min-width: 1200px) {
-  .text-lg-left { text-align: left; }
-  .text-lg-right { text-align: right; }
-  .text-lg-center { text-align: center; }
-  .text-lg-justify { text-align: justify; }
+  .text-lg-left {
+    text-align: left;
+  }
+  .text-lg-right {
+    text-align: right;
+  }
+  .text-lg-center {
+    text-align: center;
+  }
+  .text-lg-justify {
+    text-align: justify;
+  }
 
-  .height-lg-100-h { height: 100vh; }
-  .height-lg-50-w { height: 50vw; }
-  .height-lg-100-w { height: 100vw; }
+  .height-lg-100-h {
+    height: 100vh;
+  }
+  .height-lg-50-w {
+    height: 50vw;
+  }
+  .height-lg-100-w {
+    height: 100vw;
+  }
+
+  .width-lg-100 {
+    width: 100%;
+  }
+
+  .width-lg-auto {
+    width: auto;
+  }
 }
 
 $z-index-max: 999;
@@ -133,7 +226,7 @@ $z-index-max: 999;
     text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.20);
   }
 
-  .main-text {
+  p {
     font-family: Poppins-Light;
     font-size: 2.4vh;
     color: #FFFFFF;
@@ -156,15 +249,7 @@ $z-index-max: 999;
 }
 
 .content-2 {
-  margin-top: 130px;
-
-  h3 {
-    font-family: Poppins-Medium;
-    font-size: 16px;
-    color: #B9B9B9;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
+  margin-top: 11vh;
 
   h1 {
     font-family: Poppins-SemiBold;
@@ -173,11 +258,35 @@ $z-index-max: 999;
     line-height: 1.5;
   }
 
-  p {
+  h2 {
+    margin-top: 52px;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    color: #000000;
+    line-height: 32px;
+  }
+
+  h3 {
     font-family: Poppins-Light;
     font-size: 20px;
     color: #757575;
     line-height: 1.6;
+  }
+
+  h4 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #B9B9B9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 18px;
+    font-family: Poppins-Light;
+    font-size: 18px;
+    color: #757575;
+    line-height: 29px;
   }
 
   .block {
@@ -205,23 +314,6 @@ $z-index-max: 999;
     display: inline-block;
     background: url("../img/icons/computer.svg") no-repeat center;
   }
-
-  .sub-header {
-    margin-top: 52px;
-    font-family: Poppins-Medium;
-    font-size: 20px;
-    color: #000000;
-    line-height: 32px;
-  }
-
-  .text-small {
-    margin-top: 18px;
-    font-family: Poppins-Light;
-    font-size: 18px;
-    color: #757575;
-    line-height: 29px;
-  }
-
 }
 
 .content-3 {
@@ -235,23 +327,23 @@ $z-index-max: 999;
     background-size: cover;
   }
 
-  .pre-header {
+  h3 {
     font-family: Poppins-Medium;
     font-size: 16px;
     color: #B9B9B9;
     letter-spacing: 2px;
-    line-height: 26px;
+    line-height: 1.5;
     text-transform: uppercase;
   }
 
-  .header {
+  h1 {
     font-family: Poppins-SemiBold;
     font-size: 45px;
     color: #000000;
     line-height: 74px;
   }
 
-  .text {
+  p {
     margin-top: 25px;
     font-family: Poppins-Light;
     font-size: 20px;
@@ -286,6 +378,8 @@ $z-index-max: 999;
     margin-top: 50px;
     list-style-type: none;
     margin-bottom: 100px;
+    white-space: nowrap;
+    overflow: auto;
 
     li {
       display: inline-block;
@@ -336,7 +430,7 @@ $z-index-max: 999;
   .header {
     margin-top: 123px;
     font-family: Poppins-SemiBold;
-    font-size: 72px;
+    font-size: 7vh;
     color: #FFFFFF;
     line-height: 100px;
   }
@@ -368,10 +462,7 @@ $z-index-max: 999;
     margin-top: 46px;
 
     .btn {
-      height: 64px;
       border: 0;
-      width: 165px;
-      border-radius: 4px;
     }
 
     .btn-default {
@@ -404,13 +495,16 @@ $z-index-max: 999;
     font-size: 16px;
     color: #FFFFFF;
     line-height: 26px;
+    padding-top: 10px;
   }
 
   .links {
     list-style-type: none;
+    padding: 0;
 
     li {
       display: inline-block;
+      padding-top: 10px;
     }
 
     a {
