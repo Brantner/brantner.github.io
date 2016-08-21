@@ -1,3 +1,10 @@
+.metaphacts-isolation {
+    font-family: roboto;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #5e5e5e;
+    background-color: #edecec;
+}
 .metaphacts-isolation article,
 .metaphacts-isolation aside,
 .metaphacts-isolation details,
