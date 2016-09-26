@@ -13279,7 +13279,7 @@ a.metaphacts-isolation .thumbnail.active {
   }
 }
 .metaphacts-isolation .block-header > h2 {
-  font-size: 15px;
+  font-size: 17px;
   color: #777;
   margin: 0;
   font-weight: 400;
@@ -13292,6 +13292,7 @@ a.metaphacts-isolation .thumbnail.active {
   margin-bottom: 20px;
   color: #9E9E9E;
   line-height: 140%;
+  font-size: 14px;
 }
 .metaphacts-isolation .block-header .actions {
   position: absolute;
